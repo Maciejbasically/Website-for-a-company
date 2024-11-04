@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: black;
+  padding: 1px;
+  text-align: left;
+  font-size: 25px;
+  color: black;
+  width: 0%;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #c5d2d7;
+  padding: 10px;
+  float: right;
+  width: 50%;
+}
+
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: white;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #c5d2d7;
+  padding: 8px;
+  text-align: right;
+  color: black;
+   width: 100%;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 30;
+  overflow: hidden;
+  background-color: #c5d2d7;
+  width: 100%;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #1a000d (black) on hover */
+li a:hover {
+  background-color: white;
+
+
+}
+
+img {
+  display: block;
+  
+}
+
+
+
+
+body {
+  background-color: #EEF5F6;
+}
+
+</style>
+</head>
+<body onload="checkCookie()"></body>
+<body>
+
+
+
+<section>
+
+
+
+<img src="Logo.jpg" alt ="logo" style= "float: left; ">
+
+
+
+<nav>
+<ul>
+   <li><a href="Apply.html">Apply</a></li>
+   <li><a href="About Us.html">About Us</a></li>
+   <li><a href="Contact Us.html">Contact Us</a></li>
+   <li><a href="Work.html">Work</a></li>
+   <li><a href="Home.html">Home</a></li>
+</ul>
+
+
+<br>
+<br>
+
+</section>
+
+<section>
+
+<img src="Web Development.png" alt ="logo" style= "float:center;  margin-left:auto; margin-right:auto;  width:60% ; ">
+</section>
+
+<hr style="background-color:gray; height:2px; width:100%;text-align:left;margin-left:0">
+
+<br>
+<br>
+
+
+
+<section>
+
+<article>
+
+
+<h2 style="font-family:Berlin Sans FB; font-size:30px;">What we create</h2>
+<hr style="width:100%;text-align:left;margin-left:0">
+<br>
+<br>
+<br>
+<p style="font-family:courier ; text-align: center; width:100%; font-size:17px"  class="inset">Hot Beans creates every company dream website, Backend and frontend development that turns your idea into a digital product. We design websites that companies request, no matter if they are large or small business and we meet their expectations. We develop websites on daily basis </p>
+</article>
+
+<article>
+
+<img src="Company Website.png" alt ="Company Website" style= " float:center; margin-left:auto; margin-right:auto; padding: 10px; width:75%">
+</article>
+
+</section>
+
+
+
+
+<section>
+
+<article>
+
+<img src="Our Team.png" alt ="Our Team" style= " float:center; margin-left:auto; margin-right:auto;  padding: 10px; width:75%">
+
+</article>
+
+
+
+<article>
+
+<h4 style="font-family:Berlin Sans FB; float:center; margin-left:auto; margin-right:auto ;font-size:30px;">Latest Project</h1>
+<hr style="width:100%;text-align:left;margin-left:0">
+
+<br>
+<br>
+<br>
+<p style="font-family:courier ; text-align: center; width:100%; font-size:17px"  class="inset">Our latest project was creating a website for a construction company called "Bultain". They requested a website for their company to have more interaction with their customers and so more people hear about their company. We did it as they requested and got no drawbacks from the company. </p>
+</article>
+</section>
+
+
+<section>
+
+<article>
+
+<h1 style="font-family:Berlin Sans FB; font-size:30px;">Apply to us</h1>
+<hr style="width:100%;text-align:left;margin-left:0">
+
+<br>
+<br>
+<br>
+
+<p style="font-family:courier; text-align: center"  class="inset">Being intrested to work with us!? The company is always looking for new employers to to hire. Due to the current conditions, the company is looking for skilled Web Developers who are in trainee or just want a job. For more information check the "Work" section to learn more information. Incase you have a specific question about the job, you can always conatct the company in the "Contact Us" Section or just emailing the company.
+
+</article>
+
+<article>
+
+<img src="Apply.png" alt ="Company Website" style= " float:center; margin-left:auto; margin-right:auto;  padding: 40px; width: 70%">
+</article>
+
+</section>
+
+
+
+
+<section>
+<footer>
+<img src="Social Media.jpg" alt ="logo" style= "float:left; width:175px;">
+<p style= "float:center;" Email: hotbeans@gmail.com Facebook: @hotbeans   Twitter: @hotbeans  </p>
+<p>Facebook: @hotbeans<br>
+<p>Twitter: @hotbeans<br>
+
+</footer>
+</section>
+
+</body>
+</html>
+

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Apply</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: black;
+  padding: 1px;
+  text-align: left;
+  font-size: 25px;
+  color: black;
+  width: 0%;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #c5d2d7;
+  padding: 10px;
+  float: right;
+  width: 50%;
+}
+
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: white;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #c5d2d7;
+  padding: 18px;
+  text-align: right;
+  color: black;
+   width: 100%;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 30;
+  overflow: hidden;
+  background-color: #c5d2d7;
+  width: 100%;
+}
+
+nav li {
+float: right;
+} 
+
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #1a000d (black) on hover */
+nav li a:hover {
+  background-color: white;
+
+
+}
+
+img {
+  display: block;
+}
+
+
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  width: 100%;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:100%;
+}
+
+
+
+input[type=submit] {
+  width: 100%;
+  background-color: #a1adce;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #6f81b4;
+}
+
+</style>
+</head>
+<body>
+
+
+<section>
+
+<img src="Logo.jpg" alt ="logo" style= "float: left; ">
+
+<nav>
+<ul>
+   <li><a href="Apply.html">Apply</a></li>
+   <li><a href="About Us.html">About Us</a></li>
+   <li><a href="Contact Us.html">Contact Us</a></li>
+   <li><a href="Work.html">Work</a></li>
+   <li><a href="Home.html">Home</a></li>
+</ul>
+
+</section>
+
+
+<header>
+  <h2>Hot Beans Job Application</h2>
+</header>
+
+<hr style="width:100%;text-align:left;margin-left:0">
+
+<h1 style="font-family:Berlin Sans FB; font-size:35px;text-align:left;">Personal Information</h1>
+
+<hr style="width:100%;text-align:left;margin-left:0">
+
+<div class="container">
+
+<section>
+<article></article>
+	<article>
+		<form action="/action_page.php">
+		<label for="fname">First Name</label>
+		<input type="text" id="fname" name="firstname" placeholder="Your name..">
+	</article>
+	<article>
+		<label for="fname">Email Address</label>
+		<input type="text" id="fname" name="email address" placeholder="Your email address">
+	</article>
+  <article></article>
+	
+</section>	
+  
+   <div class="container"> 
+  <section>
+
+  <form action="/action_page.php">
+  <article></article>
+	<article>
+  
+  
+   <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+	</article>
+	<article>
+
+    <label for="lname">Phone Number</label>
+    <input type="text" id="lname" name="phonenumber" placeholder="Your phone number">
+
+   </article>
+  <article></article>
+
+</section>		
+
+<div class="container">
+<section>
+
+ 
+ <article></article>
+	<article>
+  <form action="/action_page.php">
+	<label for="fname">Address</label>
+    <input type="text" id="fname" name="address" placeholder="Your address">
+
+</article>
+	<article>
+
+    <label for="lname">Country</label>
+    <input type="text" id="lname" name="country" placeholder="Your country">
+	
+	</article>
+	<article>
+	
+	<label for="lname">City</label>
+    <input type="text" id="lname" name="City" placeholder="City">
+	  </article>
+  <article></article>
+	
+</section>
+
+<br>
+<br>
+
+<section>
+<article>
+
+
+<hr style="width:100%;text-align:left;margin-left:0">
+
+<h1 style="font-family:Berlin Sans FB; font-size:35px;text-align:left;">Careers</h1>
+
+<hr style="width:100%;text-align:left;margin-left:0">
+
+
+</article>
+
+</section>
+
+<section>
+
+
+
+<div class="container"> 
+  <form action="/action_page.php">
+<label for="country">Courses/Careers</label>
+    <select id="country" name="country">
+      <option value="thebackenddeveloper">The Back-End Developer</option>
+      <option value="canada">Front-End Developer</option>
+      
+    </select>
+
+
+	
+	
+    </section>
+	
+<section> 
+
+<div class="container"> 
+<label for="description">Description</label>
+    <textarea id="subject" name="subject" placeholder="Write something about yourself" style=" width: 100%; height:200px"></textarea>
+	
+	</section>
+	
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let text = "Confirmation of sendind the form\nEither OK or Cancel.";
+  if (confirm(text) == true) {
+    text = "You pressed OK!";
+  } else {
+    text = "You canceled!";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>	
+	
+<section>
+	
+	<input type="submit" onclick="myFunction()" value="Submit">
+	 
+</section>
+
+
+
+<section>
+<footer>
+<img src="Social Media.jpg" alt ="logo" style= "float:left; width:175px;">
+<p style= "float:center;" Email: hotbeans@gmail.com Facebook: @hotbeans   Twitter: @hotbeans </p>
+<p>Facebook: @hotbeans<br>
+<p>Twitter: @hotbeans<br>
+
+
+</footer>
+</section>
+
+</body>
+</html>
+
